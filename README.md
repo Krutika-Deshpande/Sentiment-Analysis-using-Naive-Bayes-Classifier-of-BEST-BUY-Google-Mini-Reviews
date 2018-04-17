@@ -10,9 +10,8 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
  Based on the HTML tags, for customer reviews scraped the data 
  
 ## Extracted the data into a dataframe using Pandas
-<div align="center">
-    <img src="/Pictures/dataframe.PNG" width="400px"</img> 
-</div>
+![Optional Text](../Spring2018/ADS_2018/Assignments/Assignment_8/dataframe.PNG)
+
 ## Bing Lexicon- lexicon containing a set of positive and negative words was extracted from a text file
 
 ## Tokenized the reviews into words using NLTK
