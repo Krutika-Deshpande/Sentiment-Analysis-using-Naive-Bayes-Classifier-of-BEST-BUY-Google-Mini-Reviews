@@ -11,7 +11,7 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
  
 ## Extracted the data into a dataframe using Pandas
 <p align="center">
-  <img src="Pictures/dataframe.jpg" width="350"/>
+  <img src="Pictures/dataframe.png" width="350"/>
 </p>
  
 ## Bing Lexicon- lexicon containing a set of positive and negative words was extracted from a text file
