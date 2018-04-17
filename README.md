@@ -6,9 +6,13 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
 <br />
 <br />
 ## Scraped the data from Best Buy reviews of Google Mini using Python Library Beautiful Soup
- Using Beautiful Soup, scraped around 5000 customer reviews of Google Mini <br />
+ Using Beautiful Soup, web scraped around 5000 customer reviews of Google Mini <br />
+ Based on the HTML tags, for customer reviews scraped the data 
  
 ## Extracted the data into a dataframe using Pandas
+<p align="center">
+  <img src="Pictures/dataframe.jpg" width="350"/>
+</p>
  
 ## Bing Lexicon- lexicon containing a set of positive and negative words was extracted from a text file
 
