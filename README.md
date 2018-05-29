@@ -26,7 +26,7 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
    Summary sentiment is assigned to the reviews based on the count of positive and negative words in the review.
    More positive words meaning positive sentiment and likewise for the negative sentiment
    Correlation of review ratings to the sentiments of the reviews is plotted
-   
+   <src = 'Sentiment-Analysis-using-Naive-Bayes-Classifier-of-BEST-BUY-Google-Mini-Reviews/negative_wordcloud.PNG'>
  
 ## Applied Naive Bayes Classifier for sentiment analysis on the extracted features
  
