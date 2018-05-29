@@ -39,4 +39,4 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
 ## Applied Naive Bayes Classifier for sentiment analysis on the extracted features
    Applying the Naive Bayes Classifier calculate the probabilities for negative and positive words.Then it selects the outcome with highest probability.
 
-For the test data , it classifies 135 negative words from a bag of 231 words and 3843 negative words from a bag of 3983 words
+For the test data , it classifies 135 negative words from a bag of 231 words and 3843 negative words from a bag of 3983 words with 86 % accuracy.
