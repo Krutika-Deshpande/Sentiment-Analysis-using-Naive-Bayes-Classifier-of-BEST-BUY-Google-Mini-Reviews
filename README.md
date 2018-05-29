@@ -27,6 +27,7 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
    More positive words meaning positive sentiment and likewise for the negative sentiment
    Correlation of review ratings to the sentiments of the reviews is plotted
    <img src = 'negative_wordcloud.jpg'>
+   <img src = 'correlation.png'>
  
 ## Applied Naive Bayes Classifier for sentiment analysis on the extracted features
  
