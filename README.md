@@ -1,4 +1,7 @@
 # Sentiment-Analysis-using-Naive-Bayes-Classifier-of-BEST-BUY-Google-Mini-Reviews
+
+Sentiment analysis also known as opinion mining is the process of determining the emotional tone behind a series of words, used to gain an understanding of the the attitudes, opinions and emotions expressed within an online mention.
+
 Performed Text Analytics determining the sentiment of reviews using Naive Bayes Classifier for Google Mini Reviews from BestBuy
 <br />
 <img width="600" height="300" src="https://cnet2.cbsistatic.com/img/IMKLzOuIl4vMHFlRBMx9Uwgoeak=/970x0/2017/10/06/e3f31773-a89c-4f4e-9bd1-9df6955cc7e8/google-home-mini-14.jpg">
@@ -21,13 +24,19 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
 ## Tokenized the reviews into words using NLTK
  'nltk' library is used for lowercasing the alphabets, tokenizing the sentences and removing english stopwords
   Positive and negative words in a review are counted when compared with the Bing Lexicon, to conclude whether a review is positive, negative or neutral
+  Positive Wordcloud
+  <img src = 'positive_wordcloud.jpg'>
+  
+  Negative Wordcloud
+  <img src = 'negative_wordcloud.jpg'>
  
 ## Categorized the reviews into positive and negative sentiment comapring it with the Bing Lexicon
    Summary sentiment is assigned to the reviews based on the count of positive and negative words in the review.
    More positive words meaning positive sentiment and likewise for the negative sentiment
    Correlation of review ratings to the sentiments of the reviews is plotted
-   <img src = 'negative_wordcloud.jpg'>
-   <img src = 'correlation.png'>
+   <img src = 'correlation.jpg'>
  
 ## Applied Naive Bayes Classifier for sentiment analysis on the extracted features
- 
+   Applying the Naive Bayes Classifier calculate the probabilities for negative and positive words.Then it selects the outcome with highest probability.
+
+For the test data , it classifies 135 negative words from a bag of 231 words and 3843 negative words from a bag of 3983 words
