@@ -16,10 +16,17 @@ Performed Text Analytics determining the sentiment of reviews using Naive Bayes 
 
 ## Bing Lexicon- lexicon containing a set of positive and negative words was extracted from a text file
  Bing Lexicon contains set of positive and negative words used for sentiment analysis
+ Positive and negative words are stored in two dictionaries
 
 ## Tokenized the reviews into words using NLTK
-
+ 'nltk' library is used for lowercasing the alphabets, tokenizing the sentences and removing english stopwords
+  Positive and negative words in a review are counted when compared with the Bing Lexicon, to conclude whether a review is positive, negative or neutral
  
 ## Categorized the reviews into positive and negative sentiment comapring it with the Bing Lexicon
+   Summary sentiment is assigned to the reviews based on the count of positive and negative words in the review.
+   More positive words meaning positive sentiment and likewise for the negative sentiment
+   Correlation of review ratings to the sentiments of the reviews is plotted
+   
  
 ## Applied Naive Bayes Classifier for sentiment analysis on the extracted features
+ 
